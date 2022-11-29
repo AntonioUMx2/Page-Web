@@ -1,0 +1,23 @@
+CREATE DATABASE registrob; 
+
+use registrob; 
+
+CREATE TABLE regostrobi
+ (
+ libros_id int primary key not null AUTO_INCREMENT,
+ elaborado varchar (50),
+ carrera Varchar (30),
+ tipo varchar(30),
+ nombrep varchar(100),
+ año varchar(4),
+ tomos int(30),
+ total int(100),
+ numeroad int(100)
+ );
+
+ CREATE TABLE users
+ (
+ id int primary key not null AUTO_INCREMENT,
+ email varchar (200),
+ password Varchar (200),
+ );
